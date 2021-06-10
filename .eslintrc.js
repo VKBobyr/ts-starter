@@ -15,5 +15,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'no-use-before-define': 'off',
+    'lines-between-class-members': 'off',
   },
 };
